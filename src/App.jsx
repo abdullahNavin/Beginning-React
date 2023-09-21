@@ -1,6 +1,7 @@
 import './App.css'
 import Team from './Team'
 import Count from './count'
+import Posts from './posts'
 import User from './user'
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
   return (
     <>
       <User></User>
-
+      <Posts></Posts>
       <Team></Team>
       <Count></Count>
 
